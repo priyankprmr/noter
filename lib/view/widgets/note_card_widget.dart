@@ -8,6 +8,7 @@ class NoteCardWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [Text('Notes Title'), Text(DateTime.now().toEMDYString())],
       ),
     );

@@ -13,6 +13,7 @@ dependencies:
   hive: ^2.2.3
   intl: ^0.20.2
   markdown_widget: ^2.3.2+8
+  path_provider: ^2.1.5
   provider: ^6.1.5
 
 dev_dependencies:
